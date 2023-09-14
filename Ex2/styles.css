@@ -1,0 +1,20 @@
+.root,
+#the-list {
+  display: flex;
+  width: 100%;
+}
+#the-list {
+  flex-direction: column;
+  margin: auto;
+  width: fit-content;
+  gap: 10px;
+}
+.item {
+  border: 1px solid black;
+  padding: 20px;
+}
+.pict {
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+}

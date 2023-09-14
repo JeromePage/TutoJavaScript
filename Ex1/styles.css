@@ -1,0 +1,20 @@
+#the-btn {
+  padding: 40px 80px;
+  border-radius: 15px;
+  background-color: greenyellow;
+  width: fit-content;
+  margin: auto;
+  cursor: pointer;
+  margin-top: 50px;
+  transition: opacity 250ms linear;
+  font-size: 96px;
+  font-weight: bold;
+}
+#the-btn.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.root {
+  display: flex;
+  width: 100%;
+}
